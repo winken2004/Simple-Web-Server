@@ -37,9 +37,9 @@ A simple web server on linux, test only on ubuntu14.04.
 
 * Simple demo
 
-	> make
-	> mkdir test
-	> echo 'hello world!' > test/index.html
+	> make  
+	> mkdir test  
+	> echo 'hello world!' > test/index.html  
 	> ./webserver 5566 test
 
 	Open web browser, connect `localhost:5566`.	
